@@ -8,17 +8,17 @@ VERSION:	Versoin Number
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 /*  typography */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat:300,400,500,700");
 @font-face {
-  font-family: 'BwNistaInt-xBd';
-  src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
+  font-family: 'Montserrat';
+  src: url("../plugins/fonts/Montserrat.woff") format("woff");
   font-style: normal;
   font-display: swap;
 }
 
 body {
   line-height: 1.2;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c;
@@ -29,7 +29,7 @@ p, .paragraph {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 p-lg, .paragraph-lg {
@@ -38,7 +38,7 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2;
 }
 
@@ -81,7 +81,7 @@ h6, .h6 {
 /* Button style */
 .btn {
   font-size: 22px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -217,7 +217,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: "BwNistaInt-xBd";
+  font-family: "Montserrat";
 }
 
 .bg-cover {
@@ -327,11 +327,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: "Playfair Display", serif !important;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .font-tertiary {
-  font-family: "BwNistaInt-xBd" !important;
+  font-family: "Montserrat" !important;
 }
 
 .shadow {
@@ -444,7 +444,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "BwNistaInt-xBd";
+  font-family: "Montserrat";
   text-transform: uppercase;
   padding: 15px;
 }
@@ -776,7 +776,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: normal;
   color: #000;
